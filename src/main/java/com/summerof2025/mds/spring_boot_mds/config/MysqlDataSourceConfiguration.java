@@ -17,7 +17,6 @@ public class MysqlDataSourceConfiguration {
     }
 
     @Bean
-    @Primary
     public DataSource mySqlDataSource(){
         return mySqlDataSourceProperties().initializeDataSourceBuilder().build();
     }

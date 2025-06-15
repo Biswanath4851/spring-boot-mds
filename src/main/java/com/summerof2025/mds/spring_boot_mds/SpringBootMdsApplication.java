@@ -1,9 +1,9 @@
 package com.summerof2025.mds.spring_boot_mds;
 
-import com.summerof2025.mds.spring_boot_mds.productentity.Order;
-import com.summerof2025.mds.spring_boot_mds.productentity.Product;
-import com.summerof2025.mds.spring_boot_mds.productrepository.OrderDao;
-import com.summerof2025.mds.spring_boot_mds.productrepository.ProductDao;
+import com.summerof2025.mds.spring_boot_mds.orderEntity.Order;
+import com.summerof2025.mds.spring_boot_mds.productEntity.Product;
+import com.summerof2025.mds.spring_boot_mds.orderRepositoty.OrderDao;
+import com.summerof2025.mds.spring_boot_mds.productRepository.ProductDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

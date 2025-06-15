@@ -1,4 +1,4 @@
-package com.summerof2025.mds.spring_boot_mds.productentity;
+package com.summerof2025.mds.spring_boot_mds.orderEntity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
